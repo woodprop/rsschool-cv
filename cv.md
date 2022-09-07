@@ -11,8 +11,15 @@
 Now I want to become a Frontend developer
 
 ### Code example:
+#### JS:
+```javascript
+function breakChocolate(n,m) {
+  return n * m > 0 ? n * m - 1 : 0;
+}
+```
+
 #### PHP:
-```injectablephp
+```PHP
 function anagrams(string $word, array $words): array {
   $word_arr = str_split($word);
   sort($word_arr);
@@ -29,3 +36,10 @@ function anagrams(string $word, array $words): array {
   return $res;
 }
 ```
+
+### Work experience:
+- Some backend pet-projects on PHP
+
+### Language:
+- **English** Pre-Intermediate
+- **Turkish** Elementary
