@@ -8,8 +8,13 @@
 <body>
     <header class="header">
         <div class="wrapper header__wrapper">
-            <h1>Konstantin Kokarev</h1>
-            <h2>#CV</h2>
+            <nav class="top-menu">
+                <ul class="top-menu__list">
+                    <li class="top-menu__item"><a href="">GitHub</a></li>
+                    <li class="top-menu__item"><a href="">Instagram</a></li>
+                    <li class="top-menu__item"><a href="">Facebook</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -20,17 +25,98 @@
                     <img class="about__photo" src="images/photo.jpg" alt="My Photo">
                 </div>
                 <div class="about__right">
-                    <h1>Konstantin Kokarev</h1>
-                    <h2>About me</h2>
-                    <p>34 y.o., have a lot of technical skills and experience. Now I want to become a Frontend developer</p>
+                    <h1 class="about__title">Konstantin Kokarev</h1>
+                    <div class="about__text">
+                        <h2>About me</h2>
+                        <p>34 y.o., have a lot of technical skills and experience.
+                            Currently I work as techician at yact-club</p>
+                        <br>
+                        <p>My hobbies are sailing and drone-racing</p>
+                        <br>
+                        <p>Now I want to become a Frontend developer</p>
+                    </div>
+
                 </div>
             </div>
 
         </section>
+
+        <section class="skills">
+            <div class="wrapper">
+                <h2 class="section__title">SKILLS</h2>
+                <div class="horizon-bar"></div>
+                <ul class="skills__block">
+                    <li><img class="skills__logo" src="images/logo-html.png" alt="HTML logo"></li>
+                    <li><img class="skills__logo" src="images/logo-css.png" alt="HTML logo"></li>
+                    <li><img class="skills__logo" src="images/logo-js.png" alt="HTML logo"></li>
+                    <li><img class="skills__logo" src="images/logo-php.png" alt="HTML logo"></li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="code">
+            <div class="wrapper">
+                <h2 class="section__title">Code examples</h2>
+                <div class="horizon-bar"></div>
+                <h3>JS</h3>
+                <pre>
+                    <code>
+                        function breakChocolate(n,m) {
+                            return n * m > 0 ? n * m - 1 : 0;
+                        }</code>
+                </pre>
+
+                <h3>PHP</h3>
+                <pre>
+                    <code>
+                        function anagrams(string $word, array $words): array {
+                            $word_arr = str_split($word);
+                            sort($word_arr);
+                            $master = array_count_values($word_arr);
+                            $res = [];
+
+                            foreach ($words as $w) {
+                                $arr = str_split($w);
+                                sort($arr);
+                                $current = array_count_values($arr);
+                                if ($current == $master) $res[] = $w;
+                            }
+
+                        return $res;
+                        }</code>
+                </pre>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="wrapper">
+                <h2 class="section__title">Study projects</h2>
+                <div class="horizon-bar"></div>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="wrapper">
+                <h2 class="section__title">Education</h2>
+                <div class="horizon-bar"></div>
+                <ul class="education__list">
+                    <li>Middle school grade</li>
+                    <li>GeekBrains PHP course - 2015</li>
+                    <li>Rolling Scopes JS/FE stage 0 - in progress</li>
+                </ul>
+                <h3>Languages</h3>
+                <ul class="education__list">
+                    <li>English - Pre-Intermediate</li>
+                    <li>Turkish - Elementary</li>
+                </ul>
+            </div>
+        </section>
+
     </main>
     <footer class="footer">
         <div class="wrapper footer__wrapper">
-            <a href="https://github.com/woodprop">My GitHub</a>
+            <a class="footer__link" href="https://github.com/woodprop">My GitHub</a>
             <span>&copy Konstantin Kokarev, 2022</span>
             <a href="https://rs.school/js/">
                 <img class="footer__course-logo" src="https://rs.school/images/rs_school_js.svg" alt="course logo">

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -7,26 +7,70 @@
 }
 
 body {
-    background: #000;
-    color: #fff;
-    font-family: Roboto;
+    background: #fff;
+    color: #000;
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: #000;
 }
 
 .wrapper {
     width: 900px;
     height: 100%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .layout-col {
     display: flex;
+}
 
+.top-menu {
+    width: 100%;
+
+}
+
+.top-menu__list {
+    list-style: none;
+    display: flex;
+}
+
+.top-menu__item {
+    display: block;
+    margin-right: 75px;
+}
+
+.top-menu__item a:hover {
+    border-bottom: 2px solid #FF5F1F;
+}
+
+.section__title {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+.horizon-bar {
+    margin: 0 auto;
+    width: 100px;
+    height: 3px;
+    background: #FF5F1F;
 }
 
 .header {
     height: 60px;
-    background: #000;
 }
 
 .header h1, header h2 {
@@ -39,24 +83,95 @@ body {
     justify-content: space-between;
 }
 
+.about {
+    padding-top: 30px;
+    background: #233A5F;
+    color: #fff;
+}
+
 .about__wrapper {
     height: 300px;
+}
+
+.about__left, .about__right {
+    width: 50%;
 }
 
 .about__photo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 2px solid #e5e5e5;
+    border: 4px solid #e5e5e5;
+}
+
+.about__title {
+    margin-bottom: 15px;
+}
+
+.about__text {
+    padding-left: 15px;
+    border-left: 5px solid #FF5F1F;
+}
+
+
+.skills {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.skills__block {
+    margin-top: 30px;
+}
+
+.skills__logo {
+    display: block;
+    height: 150px;
+}
+
+
+.education__list {
+    list-style: square inside;
+}
+
+
+
+.footer {
+    height: 50px;
 }
 
 .footer__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 3px solid #FF5F1F;
+}
+
+.footer__link:hover {
+    border-bottom: 2px solid #FF5F1F;
+    margin-top: 2px;
 }
 
 .footer__course-logo {
     width: 100px;
     background: #fff;
+}
+
+pre {
+    background-color: #e5e5e5;
+    border: 1px solid #999;
+}
+
+pre code {
+
+    display: block;
+    margin-left: -22ch;
+
 }
