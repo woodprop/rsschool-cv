@@ -88,13 +88,11 @@ a:visited {
 }
 
 .about {
+    min-height: 300px;
     padding-top: 30px;
+    padding-bottom: 30px;
     background: #233A5F;
     color: #fff;
-}
-
-.about__wrapper {
-    height: 300px;
 }
 
 .about__left, .about__right {
