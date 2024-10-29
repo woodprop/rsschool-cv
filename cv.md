@@ -7,7 +7,7 @@
 - **Telegram:** @konstantinkokarev
 
 ## About me:
-34 y.o., has a lot of technical skills and experience.
+36 y.o., has a lot of technical skills and experience.
 Now I want to become a Frontend developer
 
 ### Code example:
@@ -39,6 +39,7 @@ function anagrams(string $word, array $words): array {
 
 ### Work experience:
 - Some backend pet-projects on PHP
+- RS School Stage 0: Top 1 student
 
 ### Language:
 - **English** Pre-Intermediate
