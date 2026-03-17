@@ -7,7 +7,7 @@
 - **Telegram:** @konstantinkokarev
 
 ## About me:
-36 y.o., has a lot of technical skills and experience.
+37 y.o., has a lot of technical skills and experience.
 Now I want to become a Frontend developer
 
 ### Code example:
