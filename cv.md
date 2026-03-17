@@ -8,6 +8,7 @@
 
 ## About me:
 37 y.o., has a lot of technical skills and experience.
+10 years in aviation, 5 years in sailing
 Now I want to become a Frontend developer
 
 ### Code example:
@@ -40,6 +41,16 @@ function anagrams(string $word, array $words): array {
 ### Work experience:
 - Some backend pet-projects on PHP
 - RS School Stage 0: Top 1 student
+
+### Skills:
+- JS
+- TS basics
+- Git
+- Webpack
+
+### Education:
+- PHP courses
+- RS School Stage 0, Stage 1
 
 ### Language:
 - **English** Pre-Intermediate
